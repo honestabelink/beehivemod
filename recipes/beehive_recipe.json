@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Beehive",
+   "description" : "A house for the buzzy bee's.",
+   "flavor"      : "Definitely need gloves on.",
+   "portrait"    : "/beehivemod/entities/animalhousing/beehive/beehive.png", 
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 3
+      }
+  ],
+  "produces": [
+      {
+         "item":"beehivemod:beehive"
+      }
+  ]
+}

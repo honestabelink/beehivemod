@@ -1,0 +1,30 @@
+{
+    "type": "entity",
+    "mixins": "file(beehive_testing_ghost.json)",
+    "components": {
+        "stonehearth:entity_forms": {
+            "iconic_form": "file(beehive_testing_iconic.json)",
+            "ghost_form": "file(beehive_testing_ghost.json)",
+            "placeable_on_ground": true  
+        },
+        "mob": {
+           "model_origin":{
+               "x": 0,"y": 0,"z": 0
+            },
+            "region_origin": {
+               "x": 0.5,"y": 0,"z": 0.5
+            }
+        },
+        "region_collision_shape": {
+            "region": [
+            {
+                "min": {
+                    "x": -1,"y": 0,"z": -1
+                },
+                "max": {
+                    "x": 1,"y": 1,"z": 1
+                }
+            }]
+        }
+    }
+}

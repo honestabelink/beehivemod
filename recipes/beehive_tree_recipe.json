@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Beehive Tree",
+   "description" : "Imma B",
+   "flavor"      : "Definitely need gloves on.",
+   "portrait"    : "/beehivemod/entities/trees/beehive_tree/beehive_tree.png", 
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"beehivemod:beehive_tree"
+      }
+  ]
+}

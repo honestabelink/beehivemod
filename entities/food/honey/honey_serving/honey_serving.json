@@ -1,0 +1,35 @@
+{
+   "type": "entity",
+   "components": {
+      "unit_info": {
+         "name": "Pot of Honey",
+         "description": "Pooh would love this.",
+         "icon": "file(../honey_serving/honey_serving.png)"
+      },
+      "stonehearth:material" : {
+         "tags" : "food"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(../honey_serving/honey_serving.qb)"
+            ]
+         }
+      },"mob" : {
+         "model_origin" : { "x": 0, "y": 0, "z": 0 }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:activity_name" : "eating_berries",
+      "stonehearth:food" : {
+         "stonehearth:sitting_on_chair" : {
+            "satisfaction" : 12,
+            "journal_message" : "Sticky, but tasty!"
+         },
+         "default" : {
+            "satisfaction" : 10,
+            "journal_message" : "Wish I could eat this honey while sitting in a chair..."
+         }
+      }
+   }
+}

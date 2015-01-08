@@ -1,0 +1,20 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item" : {
+         "category" : "animal housing"
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(beehive_empty_iconic.qb)"
+            ]
+         }
+      },
+      "mob" : {
+            "model_origin" : { "x": 0, "y": 0, "z": 0 },
+            "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+      }
+   }
+}

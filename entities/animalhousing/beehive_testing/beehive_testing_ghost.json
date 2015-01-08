@@ -1,0 +1,39 @@
+{
+    "type": "entity",
+    "components": {
+        "model_variants": {
+            "default": {
+                "models": [
+                    "file(../beehive/beehive.qb)"
+                ]
+            },
+            "depleted": {
+                "models": [
+                    "file(../beehive/beehive_empty.qb)"
+                ]
+            }
+        },
+        "render_info": {
+            "scale": 0.1
+        },
+        "mob" : {
+            "model_origin" : { "x": 0, "y": 0, "z": 0 },
+             "region_origin" : { "x": 0.5, "y": 0, "z": 0.5 }
+        },
+        "stonehearth:material" : {
+            "tags" : "furniture crafted"
+        },
+        "unit_info": {
+            "name": "Beehive Testing",
+            "description": "Beehive harvest description.",
+            "icon" : "file(../beehive/beehive.png)"
+        },
+        "stonehearth:renewable_resource_node": {
+            "task_group_name": "stonehearth:task_group:harvest",
+            "resource": "beehivemod:honey_pot",
+            "renewal_time": "1h",
+            "unripe_description": "Nope not yet.",
+            "harvest_overlay_effect": "/stonehearth/data/effects/harvest_plant_overlay_effect"
+        }
+    }
+}

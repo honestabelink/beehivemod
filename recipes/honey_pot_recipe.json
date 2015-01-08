@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Honey Pot",
+   "description" : "Imma B",
+   "flavor"      : "Definitely need gloves on.",
+   "portrait"    : "/beehivemod/entities/food/honey/honey_pot/honey_pot.png", 
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"beehivemod:honey_pot"
+      }
+  ]
+}

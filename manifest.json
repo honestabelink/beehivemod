@@ -1,0 +1,21 @@
+{
+    "info": {
+        "name": "Beehive",
+        "version": 1
+    },
+    "aliases": {
+        "beehive": "file(entities/animalhousing/beehive/beehive.json)",
+        "beehive_tree": "file(entities/trees/beehive_tree/beehive_tree.json)",
+        "honey_pot":          "file(entities/food/honey/honey_pot/honey_pot.json)",
+        "honey_pot:serving" : "file(entities/food/honey/honey_serving/honey_serving.json)"
+    },
+    "mixintos": {
+        "/stonehearth/jobs/carpenter/recipes/recipes.json": [
+            "file(mixins/carpenter_recipes.json)"
+        ]
+    },
+    "overrides" :
+    {
+        "stonehearth/call_handlers/new_game_call_handler.luac" : "file(overrides/call_handlers/new_game_call_handler.lua)"
+    }
+}

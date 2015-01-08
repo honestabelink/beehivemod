@@ -1,0 +1,21 @@
+{
+   "type":"recipe",
+
+   "work_units"  : 2,
+   "recipe_name" : "Beehive Testing",
+   "description" : "Imma B",
+   "flavor"      : "Definitely need gloves on.",
+   "portrait"    : "/beehivemod/entities/animalhousing/beehive/beehive.png", 
+
+   "ingredients": [
+      {
+         "material" : "wood resource",
+         "count" : 1
+      }
+  ],
+  "produces": [
+      {
+         "item":"beehivemod:beehive_testing"
+      }
+  ]
+}

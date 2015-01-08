@@ -1,0 +1,45 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "item": {
+         "category" : "food",
+         "stacks" : 3,
+         "maxStacks" : 3
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(honey_pot.qb)"
+            ]
+         }
+      },
+      "unit_info": {
+         "name": "Pot of Honey",
+         "description": "Creme of the caveman diet.",
+         "icon" : "file(honey_pot.png)"
+      },
+      "stonehearth:material" : {
+         "tags" :  "resource food_container honey"
+      },
+      "mob" : {
+         "model_origin" : { "x": -0.5, "y": 0, "z": -0.5 }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:food_container" : {
+         "effect": "fiddle",
+         "food": "beehivemod:honey_pot:serving"
+      },
+      "stonehearth:net_worth" : {
+         "value_in_gold" : 3,
+         "rarity" : "common",
+         "shop_info" : {
+            "buyable" : true,   
+            "sellable" : true,
+            "shopkeeper_level" : 1,
+            "shopkeeper_type" : "caravan"
+         }
+      }
+   }
+}

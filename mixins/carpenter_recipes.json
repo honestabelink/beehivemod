@@ -1,0 +1,13 @@
+{
+    "craftable_recipes": {
+        "animalhousing": {
+            "ordinal": 5,
+            "name": "Animal Housing",
+            "recipes": {
+                "beehive": {
+                    "recipe": "file(/recipes/beehive_recipe.json)"
+                }
+            }
+        }
+    }
+}
