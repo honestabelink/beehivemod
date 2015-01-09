@@ -1,0 +1,17 @@
+{
+   "type" : "command",
+
+   "name": "harvest_beehive",
+   "tooltip" : "Harvest Beehive",
+   "description" : "Need description",
+   "disabled_description" : "Needs not ready description",
+
+   "default_enabled": true,  
+   "icon": "file(gather_beehive.png)",
+
+   "action": "call",
+   "function": "stonehearth:harvest_entity",
+   "args": [
+      "{{self}}"
+   ]
+}

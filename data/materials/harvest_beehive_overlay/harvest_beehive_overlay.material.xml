@@ -1,0 +1,4 @@
+<Material>
+   <Shader source="/stonehearth/data/horde/shaders/screenspace_fixedsize.shader" />
+   <Sampler name="albedoMap" map="/beehivemod/data/materials/harvest_beehive_overlay/harvest_beehive_overlay.png" />
+</Material>
