@@ -13,9 +13,5 @@
         "/stonehearth/jobs/carpenter/recipes/recipes.json": [
             "file(mixins/carpenter_recipes.json)"
         ]
-    },
-    "overrides" :
-    {
-        "stonehearth/call_handlers/new_game_call_handler.luac" : "file(overrides/call_handlers/new_game_call_handler.lua)"
     }
 }
