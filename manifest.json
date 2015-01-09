@@ -14,5 +14,9 @@
         "/stonehearth/jobs/carpenter/recipes/recipes.json": [
             "file(mixins/carpenter_recipes.json)"
         ]
+    },
+    "components" : {
+        "entitysearcher" : "file(components/entitysearcher/entitysearchercomponent.lua)",
+        "postplaceentity" : "file(components/postplaceentity/postplaceentitycomponent.lua)"
     }
 }
