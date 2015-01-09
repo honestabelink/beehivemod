@@ -28,11 +28,6 @@
             "description": "Produces lot's of Honey.",
             "icon" : "file(beehive.png)"
         },
-        "stonehearth:commands" : {
-         "commands" : [            
-            "beehivemod/data/commands/harvest_beehive"
-         ]
-        },
         "stonehearth:renewable_resource_node": {
             "task_group_name": "stonehearth:task_group:harvest",
             "resource": "beehivemod:honey_pot",
