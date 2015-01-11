@@ -32,7 +32,7 @@
             "task_group_name": "stonehearth:task_group:harvest",
             "resource": "beehivemod:honey_pot",
             "renewal_time": "30h",
-            "unripe_description": "There's no honey in here yet!.",
+            "unripe_description": "There's no honey in here yet.",
             "harvest_command" : "harvest_beehive",
             "harvest_overlay_effect": "/beehivemod/data/effects/harvest_beehive_overlay_effect"
         }

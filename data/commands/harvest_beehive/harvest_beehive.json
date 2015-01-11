@@ -3,8 +3,8 @@
 
    "name": "harvest_beehive",
    "tooltip" : "Harvest Beehive",
-   "description" : "Need description",
-   "disabled_description" : "Needs not ready description",
+   "description" : "Harvest to gain a pot of Honey",
+   "disabled_description" : "They only have small wings, give them more time.",
 
    "default_enabled": true,  
    "icon": "file(harvest_beehive.png)",
