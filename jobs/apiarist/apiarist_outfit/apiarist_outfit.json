@@ -1,0 +1,39 @@
+{
+   "type": "entity",
+   "mixins" : "stonehearth:mixins:item_properties",
+   "components" : {
+      "unit_info" : {
+         "name" :  "Apiarist Worker Outfit",
+         "description" : "Reinforced construction improves worker efficiency!",
+         "icon" : "file(worker_outfit_2.png)"
+      },
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(apiarist_outfit.qb)"
+            ]
+         },
+         "female" : {
+            "layer": "clothing",
+            "models": [
+               "file(apiarist_outfit.qb)"
+            ]
+         }
+      },
+      "stonehearth:material" : {
+         "tags" :  "armor light_armor"
+      },
+      "stonehearth:entity_forms" : {
+         "iconic_form" : "file(apiarist_outfit_iconic.json)"
+      },
+      "stonehearth:equipment_piece" : {
+         "slot" : "head",
+         "render_type" : "merge_with_model",
+         "roles" : "worker_job",
+         "ilevel" : 2,
+         "injected_buffs" : [ "stonehearth:buffs:devoted" ],
+         "equip_effect" : "/stonehearth/data/effects/level_up"
+      }
+   }
+}

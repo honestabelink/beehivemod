@@ -8,7 +8,9 @@
         "beehive:testing" : "file(entities/animalhousing/beehive_testing/beehive_testing.json)",
         "beehive_tree": "file(entities/trees/beehive_tree/beehive_tree.json)",
         "honey_pot":          "file(entities/food/honey/honey_pot/honey_pot.json)",
-        "honey_pot:serving" : "file(entities/food/honey/honey_serving/honey_serving.json)"
+        "honey_pot:serving" : "file(entities/food/honey/honey_serving/honey_serving.json)",
+
+        "apiarist:outfit" : "file(jobs/apiarist/apiarist_outfit)"
     },
     "mixintos": {
         "/stonehearth/jobs/carpenter/recipes/recipes.json": [
