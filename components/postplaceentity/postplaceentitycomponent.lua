@@ -1,4 +1,5 @@
 local PostPlaceEntityComponent=class()
+
 function PostPlaceEntityComponent:initialize(entity,json)
     self._entity=entity
     if self._sv._initialized then
@@ -14,3 +15,5 @@ function PostPlaceEntityComponent:initialize(entity,json)
         end)
     end
 end
+
+return PostPlaceEntityComponent

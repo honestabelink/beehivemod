@@ -13,9 +13,9 @@
         "apiarist:outfit" : "file(jobs/apiarist/apiarist_outfit)"
     },
     "mixintos": {
-        "/stonehearth/jobs/carpenter/recipes/recipes.json": [
-            "file(mixins/carpenter_recipes.json)"
-        ]
+        "/stonehearth/jobs/carpenter/recipes/recipes.json": "file(mixins/carpenter_recipes.json)",
+        "/stonehearth/entities/decoration/brightbell/brightbell.json" : "file(mixins/decoration/brightbell/brightbell.json)",
+        "/stonehearth/entities/decoration/frostsnap/frostsnap.json" : "file(mixins/decoration/frostsnap/frostsnap.json)"
     },
     "components" : {
         "entitysearcher" : "file(components/entitysearcher/entitysearchercomponent.lua)",

@@ -40,6 +40,19 @@
             "unripe_description": "There's no honey in here yet!.",
             "harvest_command" : "harvest_beehive",
             "harvest_overlay_effect": "/beehivemod/data/effects/harvest_beehive_overlay_effect"
+        },
+        "beehivemod:entitysearcher" : {
+            "searchers" : {
+                "plant_search" : {
+                    "radius" : 4,
+                    "scripts" : [
+                        "file(plantsearch.lua)"
+                    ],
+                    "tags" : [
+                        "plant"
+                    ]
+                }
+            }
         }
     }
 }

@@ -5,19 +5,19 @@
       "unit_info" : {
          "name" :  "Apiarist Worker Outfit",
          "description" : "Reinforced construction improves worker efficiency!",
-         "icon" : "file(worker_outfit_2.png)"
+         "icon" : "file(worker_outfit.png)"
       },
       "model_variants": {
          "default": {
             "layer": "clothing",
             "models": [
-               "file(apiarist_outfit.qb)"
+               "file(apiarist_outfit_3.qb)"
             ]
          },
          "female" : {
             "layer": "clothing",
             "models": [
-               "file(apiarist_outfit.qb)"
+               "file(apiarist_outfit_3.qb)"
             ]
          }
       },
