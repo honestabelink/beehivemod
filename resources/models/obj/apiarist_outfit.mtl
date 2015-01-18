@@ -1,0 +1,9 @@
+# Material: apiarist_outfit_AtlasMaterial
+newmtl apiarist_outfit_AtlasMaterial
+Ka 0.00 0.00 0.00
+Kd 1.00 1.00 1.00
+Ks 0.00 0.00 0.00
+d 1.00
+illum 1
+map_Kd Materials/apiarist_outfit_Atlas-tex.png
+# # #
