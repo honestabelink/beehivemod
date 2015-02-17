@@ -6,7 +6,7 @@
    "description" : "A house for the buzzy bee's.",
    "flavor"      : "Definitely need gloves on.",
    "portrait"    : "/beehivemod/entities/animalhousing/beehive/beehive.png", 
-
+   "level_requirement" : 3,
    "ingredients": [
       {
          "material" : "wood resource",
